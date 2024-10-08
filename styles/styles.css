@@ -1,7 +1,61 @@
 * {
-  display: block;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Poppins';
+}
+
+:root {
+  --red: #ea5353;
+  --cyan: #51d6d6;
+  --orange: #fcaf4a;
+  --blue: #549ef2;
+
+  --very-dark-blue: #4c4e61;
+  --grey-blue: #a3a5ae;
+  --light-grey: #fafafa;
+}
+
+body {
+  background-color: var(--light-grey);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 5rem 3rem;
+}
+
+.top, .about {
+  color: var(--grey-blue);
+  font-weight: 200;
+}
+.bottom {
+  color: var(--very-dark-blue);
+  font-weight: 600;
+}
+.about {
+  font-size: .928rem;
+}
+
+.card-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.card {
+  width: 17rem;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 0px var(--grey-blue);
+}
+
+.card h4 {
+  color: var(--very-dark-blue);
+
 }
 
 .attribution { font-size: 11px; text-align: center; }
