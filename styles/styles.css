@@ -31,12 +31,17 @@ body {
   color: var(--grey-blue);
   font-weight: 200;
 }
+.top, .bottom {
+  text-wrap: nowrap;
+  margin-bottom: .625rem;
+}
 .bottom {
   color: var(--very-dark-blue);
   font-weight: 600;
 }
 .about {
   font-size: .928rem;
+  font-weight: 300;
 }
 
 .card-layout {
@@ -48,14 +53,50 @@ body {
 
 .card {
   width: 17rem;
-  height: auto;
+  height: 13rem;
   border-radius: 5px;
   box-shadow: 0px 4px 10px 0px var(--grey-blue);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.card h4 {
-  color: var(--very-dark-blue);
+.cyan {
+  border-top: 3px solid var(--cyan);
+}
 
+.red {
+  border-top: 3px solid var(--red);
+}
+
+.orange {
+  border-top: 3px solid var(--orange);
+}
+
+.blue {
+  border-top: 3px solid var(--blue);
+}
+
+.card-title {
+  font-family: 'Poppins';
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--very-dark-blue);
+}
+
+.card-details {
+  font-family: 'Poppins';
+  font-size: .75rem;
+  font-weight: 300;
+  color: var(--grey-blue);
+  line-height: 1.75rem;
+}
+
+.round, .square{
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-left: 11rem;
+  margin-top: 2rem;
 }
 
 .attribution { font-size: 11px; text-align: center; }
