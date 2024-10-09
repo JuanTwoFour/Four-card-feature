@@ -67,7 +67,7 @@ body {
 
 ### Useful resources
 
-- [W3 schools css tutorial](https://www.w3schools.com/css/default.asp) - As always W3schools basically everything I need to know when something does not seem to work how i want it to.
+- [W3 schools css tutorial](https://www.w3schools.com/css/default.asp) - As always W3schools basically has everything I need to know when something does not seem to work how i want it to.
 
 ## Author
 
