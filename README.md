@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Four%20card%20section.png)
+![](/images/screenshot.png)
 
 ### Links
 
