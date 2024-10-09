@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+  .card-layout {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .top-section {
+    max-width: 55%;
+  }
+}
